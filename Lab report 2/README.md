@@ -205,4 +205,45 @@ WHERE id IN (1,2,3);
 ![App Screenshot](https://github.com/AbrarShazid/DBMS/blob/main/Lab%20report%202/Images%20of%20Output/5%20Output.png)
 
 
+## Task 6
+ Using NOT IN Operator
+ 
+•  Write a query to select records where a column's value is not within a specified set of values.
+
+**Example**: Retrieve all products that are not in categories 1, 2, and 3.
+### Code
+
+
+
+```bash
+create database db;
+USE db;
+
+CREATE TABLE product (
+    product_id INT PRIMARY KEY, 
+    product_name VARCHAR(100),  
+    category_id INT);
+    
+INSERT INTO product VALUES
+(1,'Shirt',1),
+(2,'Pant',1),
+(3,'Earphone',2),
+(4,'Cable',2),
+(5,'Chips',3),
+(6,'Mobile',4),
+(7,'Laptop',4),
+(8,'Paper',5),
+(9,'pen',5);
+
+SELECT product_name FROM product
+WHERE category_id NOT IN (1,2,3);
+
+```
+
+
+### Screenshots of Output
+
+![App Screenshot](https://github.com/AbrarShazid/DBMS/blob/main/Lab%20report%202/Images%20of%20Output/6%20output.png)
+
+
 
