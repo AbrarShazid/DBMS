@@ -166,4 +166,43 @@ HAVING avg(salary)>60000;
 
 
 
+## Task 5
+Using IN Operator
+
+•  Write a query to select records where a column's value is within a specified set of values.
+
+**Example**: Retrieve all orders placed by customers with IDs 1, 2, and 3.
+### Code
+
+
+
+```bash
+create database db;
+USE db;
+
+CREATE TABLE customer(
+id INT,
+order_item VARCHAR (100),
+price INT);
+
+INSERT INTO customer VALUES
+(1,'Shirt',1200),
+(2,'Watch',2200),
+(3,'Pant',1700),
+(4,'SSD',10000),
+(1,'Earphone',1900),
+(1,'Medicine',765),
+(5,'Phone',120000),
+(3,'Laptop',100000);
+
+SELECT * FROM customer
+WHERE id IN (1,2,3);
+```
+
+
+### Screenshots of Output
+
+![App Screenshot](https://github.com/AbrarShazid/DBMS/blob/main/Lab%20report%202/Images%20of%20Output/5%20Output.png)
+
+
 
