@@ -10,7 +10,7 @@ Task 1: Using WHERE Clause
 •  Write a query to select all records from a table where a specific condition is met.
 
 •  Example: Retrieve all employees with a salary greater than 50,000.
-## Code
+### Code
 
 
 
@@ -38,7 +38,7 @@ WHERE salary>50000;
 ```
 
 
-## Screenshots of Output
+### Screenshots of Output
 
 ![App Screenshot](https://github.com/AbrarShazid/DBMS/blob/main/Lab%20report%202/Images%20of%20Output/1%20output.png)
 
