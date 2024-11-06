@@ -40,5 +40,5 @@ WHERE salary>50000;
 
 ## Screenshots of Output
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/AbrarShazid/DBMS/blob/main/Lab%20report%202/Images%20of%20Output/1%20output.png)
 
