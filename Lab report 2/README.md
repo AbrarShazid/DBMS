@@ -5,7 +5,7 @@
 
 
 ## Task 1
-Task 1: Using WHERE Clause
+Using WHERE Clause
 
 •  Write a query to select all records from a table where a specific condition is met.
 
