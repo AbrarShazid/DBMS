@@ -9,7 +9,7 @@ Using WHERE Clause
 
 •  Write a query to select all records from a table where a specific condition is met.
 
-•  Example: Retrieve all employees with a salary greater than 50,000.
+**Example:** Retrieve all employees with a salary greater than 50,000.
 ### Code
 
 
@@ -41,4 +41,45 @@ WHERE salary>50000;
 ### Screenshots of Output
 
 ![App Screenshot](https://github.com/AbrarShazid/DBMS/blob/main/Lab%20report%202/Images%20of%20Output/1%20output.png)
+
+
+## Task 2
+Using LIKE Operator
+
+•  Write a query to find records where a column's 
+value matches a specified pattern.
+
+**Example**: Retrieve all customers whose names start with 'A'.
+### Code
+
+
+
+```bash
+CREATE DATABASE db;
+USE db;
+
+CREATE TABLE customer(
+id INT PRIMARY KEY,
+customer_name VARCHAR(50)
+);
+
+INSERT INTO customer VALUES
+(1,'Eric'),
+(2,'John'),
+(3,'Adam'),
+(4,'Eve'),
+(5,'Mike'),
+(6,'Anis'),
+(7,'James Aron');
+
+SELECT * FROM customer
+WHERE customer_name LIKE 'A%';
+```
+
+
+### Screenshots of Output
+
+![App Screenshot](https://github.com/AbrarShazid/DBMS/blob/main/Lab%20report%202/Images%20of%20Output/2%20output.png)
+
+
 
