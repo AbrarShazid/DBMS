@@ -83,14 +83,13 @@ WHERE customer_name LIKE 'A%';
 ![App Screenshot](https://github.com/AbrarShazid/DBMS/blob/main/Lab%20report%202/Images%20of%20Output/2%20output.png)
 
 
-## Task 3
 
-Using GROUP BY Clause
+## Task 3
+ Using GROUP BY Clause
+
 •  Write a query to group records by a specific column and perform aggregate functions.
 
 **Example**: Group employees by department and calculate the average salary.
-
-
 ### Code
 
 
@@ -123,6 +122,7 @@ GROUP BY department;
 ### Screenshots of Output
 
 ![App Screenshot](https://github.com/AbrarShazid/DBMS/blob/main/Lab%20report%202/Images%20of%20Output/3%20Output.png)
+
 
 
 
