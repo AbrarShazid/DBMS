@@ -15,7 +15,7 @@ Task 1: Using WHERE Clause
 
 
 ```bash
-  CREATE DATABASE db;
+CREATE DATABASE db;
 USE db;
 
 CREATE TABLE employee(
