@@ -124,5 +124,46 @@ GROUP BY department;
 ![App Screenshot](https://github.com/AbrarShazid/DBMS/blob/main/Lab%20report%202/Images%20of%20Output/3%20Output.png)
 
 
+## Task 4
+ Using HAVING Clause
+ 
+•  Write a query to filter groups based on a condition.
+
+**Example**: Retrieve departments with an average salary greater than 60,000.
+### Code
+
+
+
+```bash
+CREATE DATABASE db;
+USE db;
+
+CREATE TABLE emp(
+id INT PRIMARY KEY,
+designation VARCHAR(50),
+department VARCHAR(50),
+salary int
+);
+
+INSERT INTO emp VALUES
+(1,'Junior Engineer','Development',40000),
+(2,'Engineer','Development',50000),
+(3,'Senior Engineer','Development',55000),
+(4,'Manager','Management',52000),
+(5,'Accountant','Finance',55000),
+(6,'CEO','Management',100000),
+(7,'Senior Accountant','Finance',67000);
+
+SELECT department,AVG(salary) FROM emp 
+GROUP BY department 
+HAVING avg(salary)>60000;
+```
+
+
+### Screenshots of Output
+
+![App Screenshot](https://github.com/AbrarShazid/DBMS/blob/main/Lab%20report%202/Images%20of%20Output/4%20output.png)
+
+
 
 
